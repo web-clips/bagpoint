@@ -595,7 +595,7 @@ export const products = [
     price: 23990,
     badge: 'Popular',
     images: [
-      'http://fashionessential.in/wp-content/uploads/2024/10/16-2.jpg',
+      'https://cdn-images.farfetch-contents.com/19/10/57/56/19105756_41918950_1000.jpg',
       'https://assets-jiocdn.ajio.com/medias/sys_master/root/20221117/dMsq/63766b0bf997ddfdbd825c20/-473Wx593H-410343204-001-MODEL.jpg',
       'https://assets-jiocdn.ajio.com/medias/sys_master/root/20221117/tCP6/63764766f997ddfdbd818a8d/-473Wx593H-410343204-230-MODEL4.jpg',
       'https://assets-jiocdn.ajio.com/medias/sys_master/root/20221117/HxFr/637668b1aeb269659c9a73ff/-473Wx593H-410343204-001-MODEL4.jpg',
