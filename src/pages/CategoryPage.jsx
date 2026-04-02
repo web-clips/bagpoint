@@ -6,6 +6,7 @@ import ProductCard from '../components/ProductCard';
 import { categoryMeta } from '../data/products';
 import { fetchBrandsByCategory, fetchProductsByCategory } from '../api/products';
 import { ChevronDownIcon } from '../components/Icons';
+import BrandFilter from '../components/BrandFilter';
 
 function CategoryPage() {
   const { slug } = useParams();
@@ -43,35 +44,19 @@ function CategoryPage() {
 
       {meta.allowBrandFilter ? (
         <div className="category-controls">
-          <div className="brand-filter">
-            <button type="button" className="filter-trigger" onClick={() => setOpenBrands((value) => !value)}>
-              <span>{currentBrandLabel}</span>
-              <ChevronDownIcon />
-            </button>
-            <AnimatePresence>
-              {openBrands ? (
-                <motion.div
-                  className="brand-dropdown"
-                  initial={{ opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 8 }}
+          <div className="brands-wrap">
+            <div className="brands-row">
+              {brands.map((item) => (
+                <button
+                  key={item}
+                  type="button"
+                  className={`brand-pill ${brand === item ? 'is-active' : ''}`}
+                  onClick={() => setBrand(item)}
                 >
-                  {brands.map((item) => (
-                    <button
-                      type="button"
-                      key={item}
-                      className={`brand-option ${brand === item ? 'is-active' : ''}`}
-                      onClick={() => {
-                        setBrand(item);
-                        setOpenBrands(false);
-                      }}
-                    >
-                      {item === 'all' ? 'Все бренды' : item}
-                    </button>
-                  ))}
-                </motion.div>
-              ) : null}
-            </AnimatePresence>
+                  {item === 'all' ? 'Все бренды' : item}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       ) : null}

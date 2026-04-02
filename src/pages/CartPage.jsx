@@ -8,6 +8,13 @@ function CartPage() {
   const removeFromCart = useCartStore((state) => state.removeFromCart);
   const clearCart = useCartStore((state) => state.clearCart);
 
+  const increaseQuantity = useCartStore((s) => s.increaseQuantity);
+  const decreaseQuantity = useCartStore((s) => s.decreaseQuantity);
+  const total = items.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
+
   if (!items.length) {
     return (
       <EmptyState
@@ -18,13 +25,17 @@ function CartPage() {
     );
   }
 
-  const total = items.reduce((sum, item) => sum + item.price, 0);
+  // const total = items.reduce((sum, item) => sum + item.price, 0);
+  const totalItems = items.length;
 
   return (
     <div className="cart-page">
       <div className="section-intro">
         <div className="section-intro__eyebrow">Заказ</div>
         <h1>Корзина</h1>
+        <p className="cart-page__subtitle">
+          В корзине {totalItems} {totalItems === 1 ? 'товар' : totalItems < 5 ? 'товара' : 'товаров'}
+        </p>
       </div>
 
       <div className="cart-layout">
@@ -32,26 +43,80 @@ function CartPage() {
           {items.map((item) => (
             <article key={item.id} className="cart-card">
               <img src={item.images?.[0]} alt={item.name} className="cart-card__image" />
+
               <div className="cart-card__content">
-                <div className="product-card__brand">{item.brand}</div>
+                <div className="cart-card__top">
+                  <div className="product-card__brand">{item.brand}</div>
+
+                  <button
+                    className="cart-card__remove"
+                    onClick={() => removeFromCart(item.id)}
+                  >
+                    ✕
+                  </button>
+                </div>
+
                 <h3>{item.name}</h3>
-                <p>ID: {item.id}</p>
-                <strong>{formatPrice(item.price)}</strong>
+
+                <div className="cart-card__meta">
+                  <span>ID: {item.id}</span>
+                </div>
+
+                <div className="cart-card__bottom">
+                  <div className="qty">
+                    <button onClick={() => decreaseQuantity(item.id)}>-</button>
+                    <span>{item.quantity}</span>
+                    <button onClick={() => increaseQuantity(item.id)}>+</button>
+                  </div>
+
+                  <div className="cart-card__price">
+                    {formatPrice(item.price * item.quantity)}
+                  </div>
+                </div>
               </div>
-              <button type="button" className="soft-button" onClick={() => removeFromCart(item.id)}>Убрать</button>
             </article>
           ))}
         </div>
 
         <aside className="summary-card">
-          <div className="summary-card__eyebrow">WhatsApp</div>
-          <h2>Отправить заявку менеджеру</h2>
-          <p>Все выбранные позиции соберутся в одно готовое сообщение с ID, названиями и ценами.</p>
+          <div className="summary-card__eyebrow">Оформление</div>
+
+          <h2>Ваш заказ</h2>
+
+          <div className="summary-card__info">
+            <div className="summary-card__row">
+              <span>Товары</span>
+              <strong>{totalItems}</strong>
+            </div>
+
+            <div className="summary-card__row">
+              <span>Сумма</span>
+              <strong>{formatPrice(total)}</strong>
+            </div>
+          </div>
+
+          <div className="summary-card__hint">
+            После нажатия откроется WhatsApp с готовым сообщением для менеджера.
+          </div>
+
           <div className="summary-card__total">{formatPrice(total)}</div>
-          <a href={buildWhatsAppUrl(items)} target="_blank" rel="noreferrer" className="dark-button summary-card__button">
+
+          <a
+            href={buildWhatsAppUrl(items)}
+            target="_blank"
+            rel="noreferrer"
+            className="dark-button summary-card__button"
+          >
             Перейти в WhatsApp
           </a>
-          <button type="button" className="soft-button summary-card__button" onClick={clearCart}>Очистить корзину</button>
+
+          <button
+            type="button"
+            className="soft-button summary-card__button summary-card__button--ghost"
+            onClick={clearCart}
+          >
+            Очистить корзину
+          </button>
         </aside>
       </div>
     </div>

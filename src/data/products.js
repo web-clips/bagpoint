@@ -3,25 +3,29 @@ export const categoryCards = [
     slug: 'bags',
     title: 'Сумки',
     button: 'Смотреть',
-    image: '/categories/bag.png'
+    image: '/categories/bag.png',
+    isActive: true,
   },
   {
     slug: 'smeg',
     title: 'Smeg',
     button: 'Смотреть',
-    image: '/categories/smeg.png'
+    image: '/categories/smeg.png',
+    isActive: false,
   },
   {
     slug: 'dyson',
     title: 'Dyson',
     button: 'Смотреть',
-    image: '/categories/dyson.png'
+    image: '/categories/dyson.png',
+    isActive: false,
   },
   {
     slug: 'jewelry',
     title: 'Украшения',
     button: 'Смотреть',
-    image: '/categories/jewerly.png'
+    image: '/categories/jewerly.png',
+    isActive: false,
   },
   // {
   //   slug: 'accessories',
@@ -1303,7 +1307,7 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа.'
   },
-{
+  {
     id: 'GUCCI-002',
     category: 'bags',
     brand: 'Gucci',
@@ -1315,7 +1319,7 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа.'
   },
-{
+  {
     id: 'GUCCI-003',
     category: 'bags',
     brand: 'Gucci',

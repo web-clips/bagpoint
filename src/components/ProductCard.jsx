@@ -28,11 +28,10 @@ function ProductCard({ product, index = 0 }) {
 
       <div className="product-card__content">
         <div className="product-card__top">
-          <Link to={`/product/${product.id}`}>
-            <div className="product-card__title-box">
-              <div className="product-card__brand">{product.brand}</div>
-            </div>
-          </Link>
+
+          <div className="product-card__title-box">
+            <div className="product-card__brand">{product.brand}</div>
+          </div>
           <button
             type="button"
             className={`favorite-circle ${inFavorites ? 'is-active' : ''}`}
@@ -50,9 +49,11 @@ function ProductCard({ product, index = 0 }) {
           {/* <button type="button" className="soft-button" onClick={() => toggleFavorite(product)}>
             {inFavorites ? 'В избранном' : 'В избранное'}
           </button> */}
+          <Link to={`/product/${product.id}`}><button className='soft-button'>Подробнее</button></Link>
           <button type="button" className="dark-button" onClick={() => addToCart(product)} disabled={inCart}>
             {inCart ? 'Уже в корзине' : 'В корзину'}
           </button>
+
         </div>
       </div>
     </motion.article>

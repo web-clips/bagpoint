@@ -10,7 +10,7 @@ function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link to="/" className="site-logo">Bag Point</Link>
+        <Link to="/" className="site-logo">Lux Point</Link>
 
         <nav className="site-nav">
           <NavLink to="/favorites" className="icon-link" aria-label="Избранное">

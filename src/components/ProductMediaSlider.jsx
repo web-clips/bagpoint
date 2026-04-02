@@ -8,19 +8,19 @@ function ProductMediaSlider({ images, alt, badge }) {
   const touchEnd = useRef(0);
 
   const prev = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     event.stopPropagation();
     setCurrent((value) => (value === 0 ? media.length - 1 : value - 1));
   };
 
   const next = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     event.stopPropagation();
     setCurrent((value) => (value === media.length - 1 ? 0 : value + 1));
   };
 
   const goTo = (event, index) => {
-    event.preventDefault();
+    // event.preventDefault();
     event.stopPropagation();
     setCurrent(index);
   };
