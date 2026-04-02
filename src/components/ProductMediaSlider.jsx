@@ -39,7 +39,7 @@ function ProductMediaSlider({ images, alt, badge }) {
 
   return (
     <div className="media-slider" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
-      {badge ? <span className="media-slider__badge">{badge}</span> : null}
+      {/* {badge ? <span className="media-slider__badge">{badge}</span> : null} */}
       <div className="media-slider__track" style={{ transform: `translateX(-${current * 100}%)` }}>
         {media.map((image, index) => (
           <div className="media-slider__slide" key={`${alt}-${index}`}>
