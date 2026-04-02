@@ -10,8 +10,7 @@ export function buildWhatsAppUrl(items) {
     'Здравствуйте! Хочу уточнить наличие следующих товаров:',
     '',
     ...items.flatMap((item, index) => [
-      `${index + 1}. ${item.name}`,
-      `ID: ${item.id}`,
+      `${index + 1}. ID: ${item.id}`,
       `Количество: ${item.quantity} шт.`,
       `Цена за 1 шт: ${formatPrice(item.price)}`,
       `Сумма: ${formatPrice(item.price * item.quantity)}`,
