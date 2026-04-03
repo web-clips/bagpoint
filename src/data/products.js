@@ -1377,9 +1377,9 @@ export const products = [
     price: 27990,
     badge: 'Popular',
     images: [
-      'https://www.leam.com/media/catalog/product/cache/f50a9dd03470c619d7414610382958df/a/2/a25_gucci_a25-gucci-792077fadja1042.jpg',
-      'https://www.leam.com/media/catalog/product/cache/f50a9dd03470c619d7414610382958df/a/2/a25_gucci_a25-gucci-792077fadja10423p.jpg',
-      'https://www.leam.com/media/catalog/product/cache/f50a9dd03470c619d7414610382958df/a/2/a25_gucci_a25-gucci-792077fadja10425p.jpg',
+      'https://cdn.media.amplience.net/i/frasersdev/80038099_o?fmt=auto&upscale=false&w=1200&h=1200&sm=scaleFit&$h-ttl$',
+      'https://cdn.media.amplience.net/i/frasersdev/80038099_o_a1?fmt=auto&upscale=false&w=1200&h=1200&sm=scaleFit&$h-ttl$',
+      'https://cdn.media.amplience.net/i/frasersdev/80038099_o_a2?fmt=auto&upscale=false&w=1200&h=1200&sm=scaleFit&$h-ttl$',
     ],
     description: 'Мгновенно преобразите свой рабочий образ с помощью этого портфеля GG от Gucci. Он отличается ремешком и отделкой из черной кожи, двойной застежкой-молнией, кожаной биркой, внутренним карманом на молнии'
   },
