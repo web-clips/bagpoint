@@ -1439,13 +1439,14 @@ export const products = [
     id: 'GUCCI-012',
     category: 'bags',
     brand: 'Gucci',
-    price: 21990,
+    price: 18990,
     badge: 'Popular',
     images: [
-      'http://www.mingchaowang.com/upload/firstGoods/20250603/20250603112454_3348.jpg',
-      'http://www.mingchaowang.com/upload/goods/20250603/20250603112443163.jpg',
-      'http://www.mingchaowang.com/upload/firstGoods/20250603/20250603112512_0692.jpg',
-      'http://www.mingchaowang.com/upload/goods/20250603/20250603112459241.jpg'
+      'https://st-cdn.tsum.com/sig/b95527077de2e8b5765054fca479c274/width/2000/i/00/ee/01/35/00ee0135-062a-3278-853b-46e1dd1785f9.jpg',
+      'https://st-cdn.tsum.com/sig/fac6b0765f3c092af2055a416785fb3c/width/2000/i/f3/b6/aa/c4/f3b6aac4-741b-3cb5-b44a-a6c0ae0a7681.jpg',
+      'https://static.cdn.oskelly.ru/product/2356490/item-58a9e11f-c337-442d-8676-b1aa3c28fe1f.jpg.webp',
+      'https://static.cdn.oskelly.ru/product/2356490/item-374fcb7d-0e4f-4815-9559-ba2b960e5478.jpg.webp',
+      'https://static.cdn.oskelly.ru/product/2356490/item-b6bd5ea7-f736-496c-a101-093cd75bbd54.jpg.webp'
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
@@ -1461,7 +1462,7 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
-    {
+  {
     id: 'GUCCI-014',
     category: 'bags',
     brand: 'Gucci',
@@ -1472,7 +1473,7 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
-   {
+  {
     id: 'GUCCI-015',
     category: 'bags',
     brand: 'Gucci',
@@ -1483,7 +1484,7 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
-     {
+  {
     id: 'GUCCI-016',
     category: 'bags',
     brand: 'Gucci',
@@ -1494,7 +1495,7 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
-     {
+  {
     id: 'GUCCI-017',
     category: 'bags',
     brand: 'Gucci',
@@ -1505,22 +1506,8 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
-       {
-    id: 'GUCCI-018',
-    category: 'bags',
-    brand: 'Gucci',
-    price: 18990,
-    badge: 'Popular',
-    images: [
-      'https://st-cdn.tsum.com/sig/b95527077de2e8b5765054fca479c274/width/2000/i/00/ee/01/35/00ee0135-062a-3278-853b-46e1dd1785f9.jpg',
-      'https://st-cdn.tsum.com/sig/fac6b0765f3c092af2055a416785fb3c/width/2000/i/f3/b6/aa/c4/f3b6aac4-741b-3cb5-b44a-a6c0ae0a7681.jpg',
-      'https://static.cdn.oskelly.ru/product/2356490/item-58a9e11f-c337-442d-8676-b1aa3c28fe1f.jpg.webp',
-      'https://static.cdn.oskelly.ru/product/2356490/item-374fcb7d-0e4f-4815-9559-ba2b960e5478.jpg.webp',
-      'https://static.cdn.oskelly.ru/product/2356490/item-b6bd5ea7-f736-496c-a101-093cd75bbd54.jpg.webp'
-    ],
-    description: 'Компактная модель для городского luxury-образа'
-  },
-  
+
+
   {
     id: 'SMEG-001',
     name: 'Smeg Kettle 50s',
