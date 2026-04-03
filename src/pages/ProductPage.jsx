@@ -35,7 +35,7 @@ function ProductPage() {
       <div className="product-detail-card">
         <ProductMediaSlider images={product.images} alt={product.name} badge={product.badge} />
         <div className="product-detail-card__content">
-          <div style={{ width: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', padding:'5px 10px' }} className="product-card__brand">{product.brand}</div>
+          <div className="product-card__brand">{product.brand}</div>
           <h1>{product.name}</h1>
           <div className="product-detail-card__id">ID: {product.id}</div>
           <div className="product-detail-card__price">{formatPrice(product.price)}</div>
