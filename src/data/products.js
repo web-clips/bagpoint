@@ -20,13 +20,13 @@ export const categoryCards = [
     image: '/categories/dyson.png',
     isActive: false,
   },
-  {
-    slug: 'jewelry',
-    title: 'Украшения',
-    button: 'Смотреть',
-    image: '/categories/jewerly.png',
-    isActive: false,
-  },
+  // {
+  //   slug: 'jewelry',
+  //   title: 'Украшения',
+  //   button: 'Смотреть',
+  //   image: '/categories/jewerly.png',
+  //   isActive: false,
+  // },
   // {
   //   slug: 'accessories',
   //   title: 'Аксессуары',
@@ -1331,6 +1331,196 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа.'
   },
+  {
+    id: 'GUCCI-004',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 26990,
+    badge: 'Popular',
+    images: [
+      'https://img.vitkac.com/uploads/product_thumb/TORBA%20795461%20FACU5-1000/up/1.png',
+      'https://img.vitkac.com/uploads/product_thumb/TORBA%20795461%20FACU5-1000/up/2.jpg',
+      'https://img.vitkac.com/uploads/product_thumb/TORBA%20795461%20FACU5-1000/up/4.png',
+    ],
+    description: 'Компактная модель для городского luxury-образа. Портфель среднего размера'
+  },
+  {
+    id: 'GUCCI-005',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 24990,
+    badge: 'Popular',
+    images: [
+      'https://editorialist.com/thumbnail/600/2024/7/031/119/302/31119302~black_1748531690572_0.webp?width=600&quality=60',
+      'https://editorialist.com/thumbnails/600/2024/7/031/119/302/31119302~black_1748531690572_1.webp',
+      'https://editorialist.com/thumbnails/600/2024/7/031/119/302/31119302~black_1748531690572_3.webp',
+    ],
+    description: 'Компактная модель для городского luxury-образа. '
+  },
+  {
+    id: 'GUCCI-006',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 27990,
+    badge: 'Popular',
+    images: [
+      'https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/4/7/474135k5rln1095_1.jpg?ts=20220505182756',
+      'https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/4/7/474135k5rln1095_2.jpg?ts=20220505182756',
+      'https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/4/7/474135k5rln1095_3.jpg?ts=20220505182756',
+    ],
+    description: 'Мгновенно преобразите свой рабочий образ с помощью этого портфеля GG от Gucci. Он отличается ремешком Web и отделкой из черной кожи, двойной застежкой-молнией, кожаной биркой, внутренним карманом на молнии'
+  },
+  {
+    id: 'GUCCI-007',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 27990,
+    badge: 'Popular',
+    images: [
+      'https://www.leam.com/media/catalog/product/cache/f50a9dd03470c619d7414610382958df/a/2/a25_gucci_a25-gucci-792077fadja1042.jpg',
+      'https://www.leam.com/media/catalog/product/cache/f50a9dd03470c619d7414610382958df/a/2/a25_gucci_a25-gucci-792077fadja10423p.jpg',
+      'https://www.leam.com/media/catalog/product/cache/f50a9dd03470c619d7414610382958df/a/2/a25_gucci_a25-gucci-792077fadja10425p.jpg',
+    ],
+    description: 'Мгновенно преобразите свой рабочий образ с помощью этого портфеля GG от Gucci. Он отличается ремешком и отделкой из черной кожи, двойной застежкой-молнией, кожаной биркой, внутренним карманом на молнии'
+  },
+  {
+    id: 'GUCCI-008',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 27990,
+    badge: 'Popular',
+    images: [
+      'https://cdn.clothbase.com/uploads/13b7cfe6-6f4b-4050-bb3d-70b7a30a20c7/P00613408.jpg',
+      'https://cdn.clothbase.com/uploads/b3d612cc-e78d-441f-9b35-e26c328e2338/P00613408_b1.jpg',
+      'https://cdn.clothbase.com/uploads/bccfad7c-1352-4cd3-8199-88aaec2de8a9/P00613408_d2.jpg',
+    ],
+    description: 'Мгновенно преобразите свой рабочий образ с помощью этого портфеля GG от Gucci. Он отличается ремешком и коричневой кожаной отделкой на застежке-молнии и верхних ручках'
+  },
+  {
+    id: 'GUCCI-009',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 27990,
+    badge: 'Popular',
+    images: [
+      'https://img.vitkac.com/uploads/product_thumb/TORBA%20792264%20AABY0-1000/up/1.png',
+      'https://img.vitkac.com/uploads/product_thumb/TORBA%20792264%20AABY0-1000/up/2.jpg',
+      'https://img.vitkac.com/uploads/product_thumb/TORBA%20792264%20AABY0-1000/up/4.png',
+    ],
+    description: 'Представляем воплощение изысканности и функциональности — кожаный портфель Gucci . Изготовленный из лучшей телячьей кожи , этот великолепный аксессуар излучает элегантность благодаря своему гладкому черному цвету и характерному тиснёному узору.'
+  },
+  {
+    id: 'GUCCI-010',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 27990,
+    badge: 'Popular',
+    images: [
+      'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758644120/850222_AAFOM_1053_001_100_0000_Light-gg-emblem-large-briefcase.jpg',
+      'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758643265/850222_AAFOM_1053_002_100_0000_Light-gg-emblem-large-briefcase.jpg',
+      'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758730527/850222_AAFOM_1053_005_100_0000_Light-gg-emblem-large-briefcase.jpg',
+    ],
+    description: 'Представляем воплощение изысканности и функциональности — кожаный портфель Gucci . Изготовленный из лучшей телячьей кожи , этот великолепный аксессуар излучает элегантность благодаря своему гладкому черному цвету и характерному тиснёному узору.'
+  },
+  {
+    id: 'GUCCI-011',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 27990,
+    badge: 'Popular',
+    images: [
+      'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758644120/850222_AAFOM_1053_001_100_0000_Light-gg-emblem-large-briefcase.jpg',
+      'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758643265/850222_AAFOM_1053_002_100_0000_Light-gg-emblem-large-briefcase.jpg',
+      'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758730527/850222_AAFOM_1053_005_100_0000_Light-gg-emblem-large-briefcase.jpg',
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+  {
+    id: 'GUCCI-012',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 21990,
+    badge: 'Popular',
+    images: [
+      'http://www.mingchaowang.com/upload/firstGoods/20250603/20250603112454_3348.jpg',
+      'http://www.mingchaowang.com/upload/goods/20250603/20250603112443163.jpg',
+      'http://www.mingchaowang.com/upload/firstGoods/20250603/20250603112512_0692.jpg',
+      'http://www.mingchaowang.com/upload/goods/20250603/20250603112459241.jpg'
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+  {
+    id: 'GUCCI-013',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 24990,
+    badge: 'Popular',
+    images: [
+      'https://instagram.fpwq4-1.fna.fbcdn.net/v/t51.82787-15/650784417_17939129352158171_2928164787957667431_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg1MTgzODQwMjY1NjYwMTY2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=e-HABQWQB4EQ7kNvwE2xfNd&_nc_oc=Adr5FYkwHF_7T6V2LByZMy_0hqXYUTi5pOdiyZHkY-V0VnYvaZYoHkvWJBPkhGakVs8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpwq4-1.fna&_nc_gid=6lSsnoQWKGQhslfpFLUqvw&_nc_ss=7a32e&oh=00_Af1ZftPPp2RpYV6RmJDVMbVsuJgQDhP69Et84wEieOB1JQ&oe=69D5397D',
+      'https://instagram.fpwq4-1.fna.fbcdn.net/v/t51.82787-15/650464605_17939129361158171_6219908632428215699_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzg1MTgzODQwNjI5NjM3MTc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=N8VLywoF_CAQ7kNvwEqDExe&_nc_oc=AdqcVePklibFj5LOy3kNvIXVy4irQDEKP1BTGt29w9r3pL-PN_MQ2ZDamDRliXAPEdc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpwq4-1.fna&_nc_gid=6lSsnoQWKGQhslfpFLUqvw&_nc_ss=7a32e&oh=00_Af17Bss0PdSCfsi0hOUiCt94W071cMmf2tCZeBs9bL-X6Q&oe=69D51E00',
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+    {
+    id: 'GUCCI-014',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 18990,
+    badge: 'Popular',
+    images: [
+      'https://img3.shop2000.com.tw/116966/p3/55491029-1o.jpg',
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+   {
+    id: 'GUCCI-015',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 18990,
+    badge: 'Popular',
+    images: [
+      'https://oss.itoushop.com/wp-content/uploads/2026/01/5ee46ead5afc800677b2ede931afc8dd.jpg',
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+     {
+    id: 'GUCCI-016',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 18990,
+    badge: 'Popular',
+    images: [
+      'https://img1.shop2000.com.tw/63571/p4157/59450007-1o.jpg',
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+     {
+    id: 'GUCCI-017',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 18990,
+    badge: 'Popular',
+    images: [
+      'https://img.ygo.tw/images_upload/images/20220919/gucci/gucci_2209203037/gucci_2209203037_7.jpg',
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+       {
+    id: 'GUCCI-018',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 18990,
+    badge: 'Popular',
+    images: [
+      'https://st-cdn.tsum.com/sig/b95527077de2e8b5765054fca479c274/width/2000/i/00/ee/01/35/00ee0135-062a-3278-853b-46e1dd1785f9.jpg',
+      'https://st-cdn.tsum.com/sig/fac6b0765f3c092af2055a416785fb3c/width/2000/i/f3/b6/aa/c4/f3b6aac4-741b-3cb5-b44a-a6c0ae0a7681.jpg',
+      'https://static.cdn.oskelly.ru/product/2356490/item-58a9e11f-c337-442d-8676-b1aa3c28fe1f.jpg.webp',
+      'https://static.cdn.oskelly.ru/product/2356490/item-374fcb7d-0e4f-4815-9559-ba2b960e5478.jpg.webp',
+      'https://static.cdn.oskelly.ru/product/2356490/item-b6bd5ea7-f736-496c-a101-093cd75bbd54.jpg.webp'
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
+  
   {
     id: 'SMEG-001',
     name: 'Smeg Kettle 50s',
