@@ -1474,10 +1474,10 @@ export const products = [
     description: 'Компактная модель для городского luxury-образа'
   },
   {
-    id: 'GUCCI-015',
+    id: 'HERMES-001',
     category: 'bags',
-    brand: 'Gucci',
-    price: 18990,
+    brand: 'Hermes',
+    price: 24390,
     badge: 'Popular',
     images: [
       'https://oss.itoushop.com/wp-content/uploads/2026/01/5ee46ead5afc800677b2ede931afc8dd.jpg',
@@ -1506,7 +1506,17 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
- 
+ {
+    id: 'GUCCI-017',
+    category: 'bags',
+    brand: 'Gucci',
+    price: 18990,
+    badge: 'Popular',
+    images: [
+      'https://static.cdn.oskelly.ru/product/5558193/item-a8bd1be4-9c0f-45b1-acd3-6b011ed64cba.webp,
+    ],
+    description: 'Компактная модель для городского luxury-образа'
+  },
 
   {
     id: 'SMEG-001',
