@@ -1506,17 +1506,7 @@ export const products = [
     ],
     description: 'Компактная модель для городского luxury-образа'
   },
-  {
-    id: 'HERMES-001',
-    category: 'bags',
-    brand: 'Hermes',
-    price: 21990,
-    badge: 'Popular',
-    images: [
-      'https://img.ygo.tw/images_upload/images/20220919/gucci/gucci_2209203037/gucci_2209203037_7.jpg',
-    ],
-    description: 'Компактная модель для городского luxury-образа'
-  },
+ 
 
   {
     id: 'SMEG-001',
