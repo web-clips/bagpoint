@@ -81,7 +81,7 @@ export const products = [
     id: 'VLT-002',
     category: 'bags',
     brand: 'Valentino',
-    price: 28690,
+    price: 26690,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/1200x/a3/97/d7/a397d76f6fa664335aeae19d4782b676.jpg',
@@ -94,7 +94,7 @@ export const products = [
     id: 'VLT-003',
     category: 'bags',
     brand: 'Valentino',
-    price: 26990,
+    price: 25790,
     badge: 'Best seller',
     images: [
       'https://i.pinimg.com/736x/05/36/94/0536943d1b75acf961219ecc2ff657d1.jpg'
@@ -171,7 +171,7 @@ export const products = [
     id: 'VLT-009',
     category: 'bags',
     brand: 'Valentino',
-    price: 34690,
+    price: 33690,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/1200x/4e/d9/ba/4ed9baf20a946f46090bbd111f379ef2.jpg',
@@ -243,7 +243,7 @@ export const products = [
     id: 'PRADA-005',
     category: 'bags',
     brand: 'Prada',
-    price: 24990,
+    price: 24390,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/1200x/1d/1e/cb/1d1ecbf1b1dba32b2c998db149ebc345.jpg',
@@ -266,7 +266,7 @@ export const products = [
     id: 'PRADA-007',
     category: 'bags',
     brand: 'Prada',
-    price: 23990,
+    price: 23890,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/736x/96/b8/b3/96b8b3e76ba1e0acc145e051f18ab942.jpg',
@@ -278,7 +278,7 @@ export const products = [
     id: 'MIU-001',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 29990,
+    price: 26590,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/736x/f9/57/7d/f9577dc0d81bd713295f768a54c8b080.jpg',
@@ -290,7 +290,7 @@ export const products = [
     id: 'MIU-002',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 31990,
+    price: 27490,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/1200x/d8/9d/a6/d89da6239e7e5ba1b90909a939cf0df8.jpg',
@@ -301,7 +301,7 @@ export const products = [
     id: 'MIU-003',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 32990,
+    price: 28990,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/1200x/35/09/c4/3509c4d460a2b479978620f1e11c029b.jpg',
@@ -312,7 +312,7 @@ export const products = [
     id: 'MIU-004',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 29990,
+    price: 25890,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/1200x/4f/1a/f9/4f1af90a90fbb807e5f1600f504f4489.jpg',
@@ -379,7 +379,7 @@ export const products = [
     id: 'MIU-009',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 29990,
+    price: 26790,
     badge: 'Popular',
     images: [
       'https://cdn.imweb.me/thumbnail/20251217/a962233ea36c1.jpeg',
@@ -414,7 +414,7 @@ export const products = [
     id: 'MIU-012',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 23990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://i.pinimg.com/736x/86/39/e1/8639e10c803025a629811439319d6058.jpg',
@@ -451,7 +451,7 @@ export const products = [
     id: 'MIU-015',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 27990,
+    price: 25690,
     badge: 'Popular',
     images: [
       'https://cdn.imweb.me/thumbnail/20251211/3f41828eda6d7.jpeg',
@@ -466,7 +466,7 @@ export const products = [
     id: 'MIU-016',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 24990,
+    price: 22790,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/2cf8e5ccaa62f.jpeg',
@@ -479,7 +479,7 @@ export const products = [
     id: 'MIU-017',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 23990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/ac5837e3c212f.jpeg',
@@ -493,7 +493,7 @@ export const products = [
     id: 'MIU-018',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 20990,
+    price: 19790,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/ae1093aae445a.jpeg',
@@ -504,7 +504,7 @@ export const products = [
     id: 'MIU-019',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 20990,
+    price: 19790,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/61c0e5d9ee491.jpeg',
@@ -515,7 +515,7 @@ export const products = [
     id: 'MIU-020',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 20990,
+    price: 19790,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/83588b61d17de.jpeg',
@@ -526,7 +526,7 @@ export const products = [
     id: 'MIU-021',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 26990,
+    price: 24990,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/91f86e22ea1ac.jpeg',
@@ -538,7 +538,7 @@ export const products = [
     id: 'MIU-022',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 26990,
+    price: 24990,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/3157d0d6ed5c6.jpeg',
@@ -555,7 +555,7 @@ export const products = [
     id: 'MIU-023',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 26990,
+    price: 24990,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/4c47b77c2fcf0.jpeg',
@@ -568,7 +568,7 @@ export const products = [
     id: 'MIU-024',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 26990,
+    price: 24990,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/9d06d11fb5833.jpeg',
@@ -580,7 +580,7 @@ export const products = [
     id: 'MIU-025',
     category: 'bags',
     brand: 'MIUMIU',
-    price: 26990,
+    price: 24990,
     badge: 'Popular',
     images: [
       'https://cdn-optimized.imweb.me/upload/S202509197480190126c4f/64f09e6cde878.jpeg',
@@ -684,7 +684,7 @@ export const products = [
     id: 'MK-007',
     category: 'bags',
     brand: 'Michael Kors',
-    price: 33990,
+    price: 30390,
     badge: 'Popular',
     images: [
       'https://michaelkors.scene7.com/is/image/MichaelKors/30F5SNXT3L-0001_1?$pdplarge$',
@@ -697,7 +697,7 @@ export const products = [
     id: 'MK-008',
     category: 'bags',
     brand: 'Michael Kors',
-    price: 23990,
+    price: 23690,
     badge: 'Popular',
     images: [
       'https://michaelkors.scene7.com/is/image/MichaelKors/30S2G7HL3L-0230_1?$pdplarge$',
@@ -714,7 +714,7 @@ export const products = [
     id: 'MK-009',
     category: 'bags',
     brand: 'Michael Kors',
-    price: 24990,
+    price: 24390,
     badge: 'Popular',
     images: [
       'https://michaelkors.scene7.com/is/image/MichaelKors/32S5GYTC5B-1546_1?$pdplarge$',
@@ -746,7 +746,7 @@ export const products = [
     id: 'MK-011',
     category: 'bags',
     brand: 'Michael Kors',
-    price: 23990,
+    price: 23790,
     badge: 'Popular',
     images: [
       'https://assets-jiocdn.ajio.com/medias/sys_master/root/20201228/lBQi/5fe9f568f997dd8c17b1ad64/-473Wx593H-410276118-vanillaacrn-MODEL.jpg',
@@ -762,7 +762,7 @@ export const products = [
     id: 'MK-012',
     category: 'bags',
     brand: 'Michael Kors',
-    price: 33990,
+    price: 30590,
     badge: 'Popular',
     images: [
       'https://michaelkors.scene7.com/is/image/MichaelKors/30F5SU5T7T-0001_1?$pdplarge$',
@@ -782,7 +782,7 @@ export const products = [
     id: 'LV-001',
     category: 'bags',
     brand: 'Louis Vuitton',
-    price: 23990,
+    price: 25690,
     badge: 'Popular',
     images: [
       'https://nz.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-boulogne-pm--M12930_PM2_Front%20view.png?wid=2400&hei=2400',
@@ -795,7 +795,7 @@ export const products = [
     id: 'LV-002',
     category: 'bags',
     brand: 'Louis Vuitton',
-    price: 31990,
+    price: 31390,
     badge: 'Popular',
     images: [
       'https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-hobo-mm--M15209_PM2_Front%20view.png?wid=2400&hei=2400',
@@ -808,7 +808,7 @@ export const products = [
     id: 'LV-003',
     category: 'bags',
     brand: 'Louis Vuitton',
-    price: 20990,
+    price: 22790,
     badge: 'Popular',
     images: [
       'https://nz.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-twist-mm--M21113_PM2_Front%20view.png?wid=2400&hei=2400',
@@ -858,7 +858,7 @@ export const products = [
     id: 'LOEWE-003',
     category: 'bags',
     brand: 'Loewe',
-    price: 24990,
+    price: 23790,
     badge: 'Popular',
     images: [
       'https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4842104_100244_m',
@@ -882,7 +882,7 @@ export const products = [
     id: 'LOEWE-005',
     category: 'bags',
     brand: 'Loewe',
-    price: 22990,
+    price: 20790,
     badge: 'Popular',
     images: [
       'https://cdn.clothbase.com/uploads/6f474be2-90e6-4829-b8f4-4891724073ee/P00755490.jpg',
@@ -895,7 +895,7 @@ export const products = [
     id: 'LOEWE-006',
     category: 'bags',
     brand: 'Loewe',
-    price: 19990,
+    price: 18790,
     badge: 'Popular',
     images: [
       'https://static.cdn.oskelly.ru/product/1133281/item-966041a5-9a5e-4a98-a8e9-adad3aa651ad.jpg.webp',
@@ -909,7 +909,7 @@ export const products = [
     id: 'LOEWE-007',
     category: 'bags',
     brand: 'Loewe',
-    price: 24990,
+    price: 24890,
     badge: 'Popular',
     images: [
       'https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwa709d84a/images_rd/A411FC2X73/A411FC2X73-1100/A411FC2X73_1100_1F.jpg?sw=1200&q=100',
@@ -921,7 +921,7 @@ export const products = [
     id: 'LOEWE-008',
     category: 'bags',
     brand: 'Loewe',
-    price: 21990,
+    price: 22490,
     badge: 'Popular',
     images: [
       'https://www.loewe.com/dw/image/v2/BBPC_PRD/on/demandware.static/-/Sites-Loewe_master/default/dwca31ef16/images_rd/337.12.P57/337.12.P57-1100/337.12.P57_1100_1F.jpg?sw=1200&q=100',
@@ -1007,7 +1007,7 @@ export const products = [
     id: 'DIOR-006',
     category: 'bags',
     brand: 'Dior',
-    price: 23990,
+    price: 22790,
     badge: 'Popular',
     images: [
       'https://assets.christiandior.com/is/image/diorprod/M9334UTZQM928_SBG_E01?$r9x10_raw$&crop=0,0,4000,5000&wid=1536&hei=1661&scale=0.8303&bfc=on&qlt=85',
@@ -1033,7 +1033,7 @@ export const products = [
     id: 'DG-002',
     category: 'bags',
     brand: 'Dolce&Gabbana',
-    price: 26990,
+    price: 26790,
     badge: 'Popular',
     images: [
       'https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dw82a31687/images/zoom/BB7337AW576_80441_0.jpg',
@@ -1050,7 +1050,7 @@ export const products = [
     id: 'DG-003',
     category: 'bags',
     brand: 'Dolce&Gabbana',
-    price: 23990,
+    price: 23590,
     badge: 'Popular',
     images: [
       'https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwac0216f9/images/zoom/BB7782B7321_8Z093_0.jpg',
@@ -1064,7 +1064,7 @@ export const products = [
     id: 'DG-004',
     category: 'bags',
     brand: 'Dolce&Gabbana',
-    price: 23990,
+    price: 23690,
     badge: 'Popular',
     images: [
       'https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dwce8058f0/images/zoom/BB7598AW576_80999_0.jpg',
@@ -1101,7 +1101,7 @@ export const products = [
     id: 'CH-003',
     category: 'bags',
     brand: 'Coach',
-    price: 23990,
+    price: 22790,
     badge: 'Popular',
     images: [
       'https://coach.scene7.com/is/image/Coach/cw426_imxaq_a0?$desktopProduct$',
@@ -1249,7 +1249,7 @@ export const products = [
     id: 'CHL-001',
     category: 'bags',
     brand: 'Chanel',
-    price: 20990,
+    price: 22790,
     badge: 'Popular',
     images: [
       'https://www.chanel.com/images/as///f_auto,q_auto:good,dpr_1.1/w_1600/-77887959.jpg',
@@ -1311,7 +1311,7 @@ export const products = [
     id: 'GUCCI-002',
     category: 'bags',
     brand: 'Gucci',
-    price: 22990,
+    price: 22790,
     badge: 'Popular',
     images: [
       'https://storage.yandexcloud.net/cdn-prod.viled.kz/v3/converted/compressed/383022QxkrC.webp',
@@ -1323,7 +1323,7 @@ export const products = [
     id: 'GUCCI-003',
     category: 'bags',
     brand: 'Gucci',
-    price: 24990,
+    price: 24890,
     badge: 'Popular',
     images: [
       'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1741110386/837466_AAEAO_2718_001_093_0000_Light-gucci-softbit-maxi-shoulder-bag.jpg',
@@ -1335,7 +1335,7 @@ export const products = [
     id: 'GUCCI-004',
     category: 'bags',
     brand: 'Gucci',
-    price: 26990,
+    price: 26490,
     badge: 'Popular',
     images: [
       'https://img.vitkac.com/uploads/product_thumb/TORBA%20795461%20FACU5-1000/up/1.png',
@@ -1348,7 +1348,7 @@ export const products = [
     id: 'GUCCI-005',
     category: 'bags',
     brand: 'Gucci',
-    price: 24990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://editorialist.com/thumbnail/600/2024/7/031/119/302/31119302~black_1748531690572_0.webp?width=600&quality=60',
@@ -1361,7 +1361,7 @@ export const products = [
     id: 'GUCCI-006',
     category: 'bags',
     brand: 'Gucci',
-    price: 27990,
+    price: 26490,
     badge: 'Popular',
     images: [
       'https://assets.levelshoes.com/cdn-cgi/image/width=720,height=1008,quality=85,format=webp/media/catalog/product/4/7/474135k5rln1095_1.jpg?ts=20220505182756',
@@ -1374,7 +1374,7 @@ export const products = [
     id: 'GUCCI-007',
     category: 'bags',
     brand: 'Gucci',
-    price: 27990,
+    price: 26490,
     badge: 'Popular',
     images: [
       'https://cdn.media.amplience.net/i/frasersdev/80038099_o?fmt=auto&upscale=false&w=1200&h=1200&sm=scaleFit&$h-ttl$',
@@ -1387,7 +1387,7 @@ export const products = [
     id: 'GUCCI-008',
     category: 'bags',
     brand: 'Gucci',
-    price: 27990,
+    price: 26490,
     badge: 'Popular',
     images: [
       'https://cdn.clothbase.com/uploads/13b7cfe6-6f4b-4050-bb3d-70b7a30a20c7/P00613408.jpg',
@@ -1400,7 +1400,7 @@ export const products = [
     id: 'GUCCI-009',
     category: 'bags',
     brand: 'Gucci',
-    price: 27990,
+    price: 26490,
     badge: 'Popular',
     images: [
       'https://img.vitkac.com/uploads/product_thumb/TORBA%20792264%20AABY0-1000/up/1.png',
@@ -1413,7 +1413,7 @@ export const products = [
     id: 'GUCCI-010',
     category: 'bags',
     brand: 'Gucci',
-    price: 27990,
+    price: 26490,
     badge: 'Popular',
     images: [
       'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758644120/850222_AAFOM_1053_001_100_0000_Light-gg-emblem-large-briefcase.jpg',
@@ -1426,7 +1426,7 @@ export const products = [
     id: 'GUCCI-011',
     category: 'bags',
     brand: 'Gucci',
-    price: 27990,
+    price: 26490,
     badge: 'Popular',
     images: [
       'https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758644120/850222_AAFOM_1053_001_100_0000_Light-gg-emblem-large-briefcase.jpg',
@@ -1439,7 +1439,7 @@ export const products = [
     id: 'GUCCI-012',
     category: 'bags',
     brand: 'Gucci',
-    price: 18990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://st-cdn.tsum.com/sig/b95527077de2e8b5765054fca479c274/width/2000/i/00/ee/01/35/00ee0135-062a-3278-853b-46e1dd1785f9.jpg',
@@ -1454,7 +1454,7 @@ export const products = [
     id: 'GUCCI-013',
     category: 'bags',
     brand: 'Gucci',
-    price: 24990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://instagram.fpwq4-1.fna.fbcdn.net/v/t51.82787-15/650784417_17939129352158171_2928164787957667431_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg1MTgzODQwMjY1NjYwMTY2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=e-HABQWQB4EQ7kNvwE2xfNd&_nc_oc=Adr5FYkwHF_7T6V2LByZMy_0hqXYUTi5pOdiyZHkY-V0VnYvaZYoHkvWJBPkhGakVs8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpwq4-1.fna&_nc_gid=6lSsnoQWKGQhslfpFLUqvw&_nc_ss=7a32e&oh=00_Af1ZftPPp2RpYV6RmJDVMbVsuJgQDhP69Et84wEieOB1JQ&oe=69D5397D',
@@ -1477,7 +1477,7 @@ export const products = [
     id: 'GUCCI-015',
     category: 'bags',
     brand: 'Gucci',
-    price: 18990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://oss.itoushop.com/wp-content/uploads/2026/01/5ee46ead5afc800677b2ede931afc8dd.jpg',
@@ -1488,7 +1488,7 @@ export const products = [
     id: 'GUCCI-016',
     category: 'bags',
     brand: 'Gucci',
-    price: 18990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://img1.shop2000.com.tw/63571/p4157/59450007-1o.jpg',
@@ -1499,7 +1499,7 @@ export const products = [
     id: 'GUCCI-017',
     category: 'bags',
     brand: 'Gucci',
-    price: 18990,
+    price: 22390,
     badge: 'Popular',
     images: [
       'https://img.ygo.tw/images_upload/images/20220919/gucci/gucci_2209203037/gucci_2209203037_7.jpg',
