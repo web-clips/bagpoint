@@ -17,6 +17,7 @@ function ProductCard({ product, index = 0 }) {
   return (
 
     <motion.article
+      id={`product-${product.id}`}
       className="product-card"
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
@@ -49,7 +50,7 @@ function ProductCard({ product, index = 0 }) {
           {/* <button type="button" className="soft-button" onClick={() => toggleFavorite(product)}>
             {inFavorites ? 'В избранном' : 'В избранное'}
           </button> */}
-          <Link to={`/product/${product.id}`}><button className='soft-button'>Подробнее</button></Link>
+          <Link to={`/product/${product.id}`} onClick={() => sessionStorage.setItem('lastProductId', product.id)}><button className='soft-button'>Подробнее</button></Link>
           <button type="button" className="dark-button" onClick={() => addToCart(product)} disabled={inCart}>
             {inCart ? 'Уже в корзине' : 'В корзину'}
           </button>

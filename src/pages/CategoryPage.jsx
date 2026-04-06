@@ -18,6 +18,7 @@ function CategoryPage() {
 
   useEffect(() => {
     if (!meta) return;
+
     fetchBrandsByCategory(slug).then((items) => {
       setBrands(items);
       setBrand('all');
@@ -26,8 +27,30 @@ function CategoryPage() {
 
   useEffect(() => {
     if (!meta) return;
+
     fetchProductsByCategory(slug, brand).then(setProducts);
   }, [slug, brand, meta]);
+
+  useEffect(() => {
+    if (!products.length) return;
+
+    const lastProductId = sessionStorage.getItem('lastProductId');
+    if (!lastProductId) return;
+
+    const el = document.getElementById(`product-${lastProductId}`);
+    if (!el) return;
+
+    const timer = setTimeout(() => {
+      el.scrollIntoView({
+        behavior: 'auto',
+        block: 'center',
+      });
+
+      sessionStorage.removeItem('lastProductId');
+    }, 0);
+
+    return () => clearTimeout(timer);
+  }, [products]);
 
   const currentBrandLabel = useMemo(() => {
     if (brand === 'all') return 'Бренд';
