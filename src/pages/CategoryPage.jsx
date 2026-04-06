@@ -1,27 +1,31 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
 import CategoryTopbar from '../components/CategoryTopbar';
 import ProductCard from '../components/ProductCard';
 import { categoryMeta } from '../data/products';
 import { fetchBrandsByCategory, fetchProductsByCategory } from '../api/products';
-import { ChevronDownIcon } from '../components/Icons';
-import BrandFilter from '../components/BrandFilter';
 
 function CategoryPage() {
   const { slug } = useParams();
   const meta = categoryMeta[slug];
+
   const [brand, setBrand] = useState('all');
   const [brands, setBrands] = useState(['all']);
   const [products, setProducts] = useState([]);
-  const [openBrands, setOpenBrands] = useState(false);
 
   useEffect(() => {
     if (!meta) return;
 
     fetchBrandsByCategory(slug).then((items) => {
       setBrands(items);
-      setBrand('all');
+
+      const savedBrand = sessionStorage.getItem(`categoryBrand-${slug}`) || 'all';
+
+      if (items.includes(savedBrand) || savedBrand === 'all') {
+        setBrand(savedBrand);
+      } else {
+        setBrand('all');
+      }
     });
   }, [slug, meta]);
 
@@ -74,7 +78,10 @@ function CategoryPage() {
                   key={item}
                   type="button"
                   className={`brand-pill ${brand === item ? 'is-active' : ''}`}
-                  onClick={() => setBrand(item)}
+                  onClick={() => {
+                    setBrand(item);
+                    sessionStorage.setItem(`categoryBrand-${slug}`, item);
+                  }}
                 >
                   {item === 'all' ? 'Все бренды' : item}
                 </button>
